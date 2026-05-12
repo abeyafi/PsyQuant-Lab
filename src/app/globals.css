@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 40 40% 98%; /* #FDFBF7 equivalent */
+  --foreground: 0 0% 29%;   /* #4A4A4A */
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 29%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 29%;
+  --primary: 255 21% 40%;    /* #5B507A */
+  --primary-foreground: 210 40% 98%;
+  --secondary: 258 67% 90%;  /* #E0D7F5 */
+  --secondary-foreground: 255 21% 40%;
+  --muted: 33 25% 95%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 255 45% 70%;     /* #9E86E0 */
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 33 20% 92%;      /* #F0EBE3 */
+  --input: 33 20% 91.4%;
+  --ring: 255 21% 40%;
+  --radius: 1rem;
+}
+
+.dark {
+  --background: 255 21% 10%; /* Darker version of primary base */
+  --foreground: 210 40% 98%;
+  --card: 255 21% 12%;
+  --card-foreground: 210 40% 98%;
+  --popover: 255 21% 10%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 258 67% 90%;
+  --primary-foreground: 255 21% 10%;
+  --secondary: 255 21% 20%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 255 45% 70%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 255 21% 20%;
+  --input: 255 21% 20%;
+  --ring: 258 67% 90%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.glass {
+  @apply bg-white/60 dark:bg-black/40 backdrop-blur-md border border-white/40 dark:border-white/10 shadow-sm;
+}
+
+.cozy-card {
+  @apply rounded-[32px] p-6 transition-all duration-300 hover:shadow-lg hover:scale-[1.01] cursor-pointer bg-white border border-border;
+}
+
+.gradient-primary {
+  @apply bg-gradient-to-br from-[#F5F2FF] to-[#E0D7F5] dark:from-cozy-navy dark:to-slate-900;
+}
+
+.gradient-accent {
+  @apply bg-gradient-to-tr from-[#E0D7F5] to-[#FFDBC5];
+}

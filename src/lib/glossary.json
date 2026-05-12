@@ -1,0 +1,102 @@
+{
+  "glossary": [
+    {
+      "term": "Anova",
+      "definition": "Analysis of Variance, digunakan untuk membandingkan rata-rata lebih dari dua kelompok.",
+      "category": "Inferential Statistics"
+    },
+    {
+      "term": "p-value",
+      "definition": "Probabilitas mendapatkan hasil yang ekstrem jika hipotesis nol benar. Biasanya batasnya 0.05.",
+      "category": "NHST"
+    },
+    {
+      "term": "Reliabilitas",
+      "definition": "Sejauh mana alat ukur memberikan hasil yang konsisten pada penggunaan berulang.",
+      "category": "Psychometrics"
+    },
+    {
+      "term": "Validitas",
+      "definition": "Sejauh mana alat ukur benar-benar mengukur apa yang seharusnya diukur.",
+      "category": "Psychometrics"
+    },
+    {
+      "term": "Effect Size",
+      "definition": "Ukuran kekuatan hubungan atau besarnya perbedaan antar kelompok. Contoh: Cohen's d.",
+      "category": "Statistics"
+    },
+    {
+      "term": "Variabel Dependen",
+      "definition": "Variabel yang diukur untuk mengetahui perubahan atau efek setelah variasi variabel independen.",
+      "category": "Methodology"
+    },
+    {
+      "term": "Variabel Independen",
+      "definition": "Variabel yang dimanipulasi dalam eksperimen untuk menguji efek pada variabel dependen.",
+      "category": "Methodology"
+    },
+    {
+      "term": "Variabel Kualitatif",
+      "definition": "Variabel kategorikal yang mewakili informasi deskriptif dan tidak dapat diekspresikan sebagai angka bermakna.",
+      "category": "Methodology"
+    },
+    {
+      "term": "Variabel Kuantitatif",
+      "definition": "Variabel yang merepresentasikan informasi yang dapat dinyatakan sebagai angka atau dapat dihitung.",
+      "category": "Methodology"
+    },
+    {
+      "term": "Skala Nominal",
+      "definition": "Tingkat pengukuran paling dasar; kategori saling eksklusif dan tidak memiliki urutan inheren.",
+      "category": "Measurement"
+    },
+    {
+      "term": "Skala Ordinal",
+      "definition": "Tingkat pengukuran di mana nilai memiliki urutan inheren, namun jarak antar nilai tidak diasumsikan sama.",
+      "category": "Measurement"
+    },
+    {
+      "term": "Skala Interval",
+      "definition": "Tingkat pengukuran dengan urutan dan jarak unit yang sama, namun tidak memiliki titik nol sejati.",
+      "category": "Measurement"
+    },
+    {
+      "term": "Skala Rasio",
+      "definition": "Tingkat pengukuran tertinggi; memiliki urutan, jarak sama, dan titik nol sejati (absolute zero).",
+      "category": "Measurement"
+    },
+    {
+      "term": "Kesalahan Tipe I",
+      "definition": "Menolak hipotesis nol padahal sebenarnya benar (False Positive).",
+      "category": "NHST"
+    },
+    {
+      "term": "Kesalahan Tipe II",
+      "definition": "Gagal menolak hipotesis nol padahal sebenarnya salah (False Negative).",
+      "category": "NHST"
+    },
+    {
+      "term": "KODE NUREMBERG (1947)",
+      "definition": "Prinsip etika penelitian: Informed consent mutlak, manfaat masyarakat, minimalkan penderitaan.",
+      "category": "Ethics"
+    }
+  ],
+  "studyTips": [
+    {
+      "title": "Active Recall",
+      "content": "Jangan cuma baca ulang catatan. Tutup bukumu, lalu coba jelaskan konsepnya seolah kamu sedang mengajar teman."
+    },
+    {
+      "title": "Spaced Repetition",
+      "content": "Belajar 30 menit setiap hari lebih efektif daripada belajar 5 jam sekaligus sebelum ujian."
+    },
+    {
+      "title": "Pomodoro Psychology",
+      "content": "Gunakan timer 25 menit belajar intens, 5 menit istirahat. Ini menjaga beban kognitif tetap stabil."
+    },
+    {
+      "title": "NOIR Mnemonic",
+      "content": "Gunakan mnemonik NOIR (Nominal, Ordinal, Interval, Ratio) untuk mengingat tingkat pengukuran variabel."
+    }
+  ]
+}
